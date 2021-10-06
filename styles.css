@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container-header
+{
+    background-color: black;
+
+}
+.logo-container
+{
+    background-image: url('./images/Untitled-1.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+}
