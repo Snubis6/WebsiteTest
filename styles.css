@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 /* ///////////////////////////////////////////////// */
 .container-header
@@ -84,7 +85,26 @@ body
     display: none;
 }
 /* ///////////////////////////////////////////////////////////////// */
-.welcome-section2{
+
+.column-articles{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and ( min-width:100%){
+    .column-articles{
+        width: 100%;
+    }
+}
+
+/* .welcome-section2{
     float: left;
     width: 50%;
     padding: 10px;
@@ -117,7 +137,7 @@ body
 
     padding-top: 20px;
     padding-bottom: 20px;
-}
+} */
 /* ///////////////////////////////////////////////// */
 .welcome-section{
     font-size: 50px;
